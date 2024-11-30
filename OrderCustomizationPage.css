@@ -1,0 +1,40 @@
+/* src/components/OrderCustomizationPage.css */
+.order-customization {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .order-customization h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .order-customization label {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .order-customization select,
+  .order-customization input {
+    padding: 8px;
+    margin: 10px 0;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .order-customization button {
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .order-customization button:hover {
+    background-color: #27ae60;
+  }
+  

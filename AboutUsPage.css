@@ -1,0 +1,97 @@
+/* General layout of the website (body) */
+body {
+  background-color: #f4f9fc; /* Pastel blue background */
+  font-family: 'Helvetica Neue', sans-serif; /* Modern font */
+  margin: 0;
+  padding: 0;
+}
+
+/* AboutUsPage.css */
+
+/* General layout of the About Us page */
+.about-us-page {
+  background-color: #fff; /* White background for the About Us content */
+  padding: 60px 0;
+  text-align: center;
+}
+
+/* Container for the content of the page */
+.about-us-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #fff; /* White background for content */
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for a soft floating effect */
+}
+
+/* Title of the About Us section */
+.about-us-content h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #000; /* Black text color */
+  font-weight: bold;
+}
+
+/* Description paragraph */
+.about-us-description {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: #000; /* Black text color */
+  font-weight: normal;
+}
+
+/* Additional info paragraph styling */
+.about-us-info {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #000; /* Black text color */
+  line-height: 1.8;
+  font-weight: normal;
+}
+
+/* Mission statement */
+.about-us-mission {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #000; /* Black text color */
+  line-height: 1.8;
+  font-weight: normal;
+}
+
+/* Team section */
+.about-us-team h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #000; /* Black text color */
+  font-weight: bold; /* Bold team section title */
+}
+
+.about-us-team p {
+  font-size: 1rem;
+  color: #000; /* Black text color */
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .about-us-content {
+    padding: 15px;
+    margin: 20px;
+  }
+
+  .about-us-content h2 {
+    font-size: 2.5rem;
+  }
+
+  .about-us-description {
+    font-size: 1rem;
+  }
+
+  .about-us-info,
+  .about-us-mission {
+    font-size: 1rem;
+  }
+}

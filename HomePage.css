@@ -1,0 +1,44 @@
+/* HomePage.css */
+
+/* General layout for the homepage */
+.homepage {
+  text-align: center;
+  padding: 200px 0;
+  background-color: #f4f9fc; /* Light pastel background color */
+  background-image: url('https://images.unsplash.com/photo-1454944338482-a69bb95894af?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Zm9vZCUyMDRrJTIwcGFzdGVsJTIwaW1hZ2VzfGVufDB8fDB8fHww'); /* Add your background image here */
+  background-size: cover; /* Ensures the background image covers the entire section */
+  background-position: center center; /* Ensures the image is centered */
+  background-attachment: fixed; /* Keeps the background image fixed while scrolling */
+}
+
+/* Title of the homepage */
+.homepage h1 {
+  font-size: 50px;
+  color: #0f0202;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Description paragraph */
+.homepage p {
+  font-size: 18px;
+  color: #2f1a1a;
+  margin-top: 10px;
+}
+
+/* Button styling */
+.homepage button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px; /* Space between the paragraph and button */
+  border-radius: 5px; /* Rounded corners for the button */
+}
+
+/* Button hover effect */
+.homepage button:hover {
+  background-color: #555;
+}

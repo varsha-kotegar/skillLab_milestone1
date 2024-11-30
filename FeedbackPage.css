@@ -1,0 +1,43 @@
+/* FeedbackPage.css */
+.feedback-page {
+    padding: 20px;
+  }
+  
+  .feedback-page h2 {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .feedback-page form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .feedback-page input,
+  .feedback-page textarea,
+  .feedback-page select {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .feedback-page button {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    align-self: center;
+  }
+  
+  .feedback-page button:hover {
+    background-color: #c0392b;
+  }
+  

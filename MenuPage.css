@@ -1,0 +1,104 @@
+/* MenuPage.css */
+
+/* General page styling */
+.menu-page {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Container for menu items */
+.menu-category {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Always 3 items per row */
+  gap: 20px;
+  justify-items: center;
+  margin-top: 20px;
+}
+
+/* Individual menu item card */
+.menu-item {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%; /* Ensure it scales properly */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensures content is spaced correctly */
+  height: 100%; /* Ensures each card maintains consistent height */
+}
+
+.menu-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Image styling for menu items */
+.menu-item-image {
+  width: 85%; /* Ensures the image stretches to fill the container */
+  height: 250px; /* Fixed height for all images */
+  object-fit: cover; /* Ensures image covers the area without distortion */
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* Food name styling */
+.menu-item h3 {
+  font-size: 1.4rem;
+  margin: 10px 0;
+  color: #333;
+}
+
+/* Description text styling */
+.menu-item p {
+  font-size: 1rem;
+  color: #666;
+  margin: 10px 0;
+}
+
+/* Price styling */
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #e94e77; /* A nice price highlight color */
+  margin: 10px 0;
+}
+
+/* Button styling */
+.menu-item button {
+  background-color: #e94e77;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: auto; /* Ensures button stays at the bottom of the item */
+  transition: background-color 0.3s ease;
+}
+
+.menu-item button:hover {
+  background-color: #d23d62;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .menu-category {
+    grid-template-columns: repeat(2, 1fr); /* 2 items per row for smaller screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .menu-category {
+    grid-template-columns: 1fr; /* 1 item per row for very small screens */
+  }
+}
